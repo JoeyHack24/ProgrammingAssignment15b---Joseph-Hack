@@ -7,6 +7,7 @@
 
 using namespace std;
 
+//Template for half function
 template <typename T>
 T half(T& var1) {
     T half;
@@ -14,6 +15,7 @@ T half(T& var1) {
     return half;
 }
 
+//Half function specifically for int values
 int half(int var1) {
     int half;
     half = round((float)var1 / 2.0);
@@ -21,7 +23,7 @@ int half(int var1) {
 }
 
 
-
+//Main tests double float and int values for half functions
 int main()
 {
     double a = 7.0;
